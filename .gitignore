@@ -1,0 +1,4 @@
+log
+python_modules
+*__pycache__*
+development.ini

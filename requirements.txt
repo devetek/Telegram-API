@@ -1,0 +1,5 @@
+virtualenv
+python-telegram-bot
+
+# Linting dependencies
+pylint
