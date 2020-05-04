@@ -4,7 +4,10 @@ run-setup: .validator
 
 .PHONY: run-dev
 run-dev: .prepare-env
-	@ export ENV=development && python3 main.py
+	( \
+		source python_modules/bin/activate; \
+		export ENV=development && python3 main.py; \
+	)
 
 .PHONY: .prepare-env
 .prepare-env: .validator
