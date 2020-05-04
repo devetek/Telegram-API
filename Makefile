@@ -1,5 +1,5 @@
 .PHONY: run-setup
-run-dev: .validator
+run-setup: .validator
 	@ cp main.ini development.ini
 
 .PHONY: run-dev

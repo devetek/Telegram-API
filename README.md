@@ -7,13 +7,13 @@ Untuk tingkat lanjut, kamu dapat melakukan integrasi dengan beberapa system yang
 
 ## Cara Menggunakan
 
-Pastikan anda menggunakan UNIX untuk saat ini, karena saat ini belum ada test yang dilakukan ke OS Windows. Jalankan command di bawah ini untuk melakukan pengaturan dasar:
+Pastikan kamu menggunakan UNIX untuk saat ini, karena saat ini belum ada test yang dilakukan ke OS Windows. Jalankan command di bawah ini untuk melakukan pengaturan dasar:
 
 ```sh
 make run-setup
 ```
 
-Selanjutnya, buka file `development.ini` dan isi pengaturan `TelegramToken` dengan token ID yang telah anda buat sebelumnya. Asumsinya kamu sudah paham cara membuat bot, untuk cara membuat bot silahkan kunjungi [Telegram Bot](https://core.telegram.org/bots).
+Selanjutnya, buka file `development.ini` dan isi pengaturan `TelegramToken` dengan token ID yang telah kamu buat sebelumnya. Asumsinya kamu sudah paham cara membuat bot, untuk cara membuat bot silahkan kunjungi [Telegram Bot](https://core.telegram.org/bots).
 
 Setelah menjalankan command di atas, jalankan (SSTA) dengan command di bawah ini:
 
